@@ -6,7 +6,6 @@
 //  Copyright 2009 Mark Rowe. All rights reserved.
 //
 
-#define _DARWIN_NO_64_BIT_INODE 1
 
 #include "SUBinaryDeltaCommon.h"
 #include "SUBinaryDeltaApply.h"

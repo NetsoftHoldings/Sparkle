@@ -1036,7 +1036,6 @@
 			);
 			name = "Fix Install Name";
 			outputPaths = (
-				"$(CONFIGURATION_BUILD_DIR)/BinaryDelta",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="7.10">
 	<data>
-		<int key="IBDocument.SystemTarget">1050</int>
+		<int key="IBDocument.SystemTarget">1090</int>
 		<string key="IBDocument.SystemVersion">10C540</string>
 		<string key="IBDocument.InterfaceBuilderVersion">759</string>
 		<string key="IBDocument.AppKitVersion">1038.25</string>
@@ -122,7 +122,7 @@
 										<bytes key="NSWhite">MC42NjY2NjY2ODY1AA</bytes>
 									</object>
 								</object>
-								<object class="NSColor" key="NSTextColor" id="1050916019">
+								<object class="NSColor" key="NSTextColor" id="1090916019">
 									<int key="NSColorSpace">6</int>
 									<string key="NSCatalogName">System</string>
 									<string key="NSColorName">controlTextColor</string>
@@ -150,7 +150,7 @@
 								</object>
 								<reference key="NSControlView" ref="17821018"/>
 								<reference key="NSBackgroundColor" ref="419415169"/>
-								<reference key="NSTextColor" ref="1050916019"/>
+								<reference key="NSTextColor" ref="1090916019"/>
 							</object>
 						</object>
 						<object class="NSButton" id="40237518">
@@ -336,7 +336,7 @@
 								</object>
 								<reference key="NSControlView" ref="490869679"/>
 								<reference key="NSBackgroundColor" ref="419415169"/>
-								<reference key="NSTextColor" ref="1050916019"/>
+								<reference key="NSTextColor" ref="1090916019"/>
 							</object>
 						</object>
 						<object class="NSButton" id="804292565">
@@ -1612,7 +1612,7 @@
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencies">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
-			<integer value="1050" key="NS.object.0"/>
+			<integer value="1090" key="NS.object.0"/>
 		</object>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
