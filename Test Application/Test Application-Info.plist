@@ -27,7 +27,7 @@
 	<key>SUEnableSystemProfiling</key>
 	<true/>
 	<key>SUFeedURL</key>
-	<string>http://hubstaff.dev/appcast/debug.xml</string>
+	<string>https://app.staging.hbstf.co/appcast/debug.xml</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
 </dict>
