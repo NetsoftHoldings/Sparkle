@@ -74,7 +74,7 @@
     id enclosure = [[ui propertiesDictionary] objectForKey:@"enclosure"];
     NSString *os = [enclosure objectForKey:@"sparkle:os"];
     if (os != nil) {
-        BOOL valid = [os isEqualToString:@"osx"] || [os isEqualToString:@"mac"];
+        BOOL valid = [os isEqualToString:@"osx"] || [os isEqualToString:@"macos"];
         if (!valid) return NO;
     }
     
