@@ -50,6 +50,10 @@
 - (NSDictionary *)deltaUpdates;
 - (BOOL)isDeltaUpdate;
 
+// Mimic Sparkle v2
+- (BOOL)isCriticalUpdate;
+// END Mimic Sparkle v2
+
 // Returns the dictionary provided in initWithDictionary; this might be useful later for extensions.
 - (NSDictionary *)propertiesDictionary;
 

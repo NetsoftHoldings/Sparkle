@@ -267,7 +267,18 @@
 	{
 		[self displayReleaseNotes];
 	}
-	
+
+	if ( [updateItem isCriticalUpdate] )
+	{
+        [skipButton setHidden: YES];
+        [laterButton setHidden: YES];
+        
+        // Prevent closing
+        self.window.styleMask &= ~NSWindowStyleMaskClosable;
+        // This means the window will float over all other apps, if our app is switched out ?! UK 2007-09-04
+        [[self window] setLevel:NSFloatingWindowLevel];
+	}
+
 	[[[releaseNotesView superview] superview] setHidden: !showReleaseNotes];	// UK 2007-09-18
 
 }
@@ -291,7 +302,15 @@
 
 - (NSString *)titleText
 {
-	return [NSString stringWithFormat:SULocalizedString(@"A new version of %@ is available!", nil), [host name]];
+    // Sparkle v2 patch
+    if ( [updateItem isCriticalUpdate] )
+    {
+        return [NSString stringWithFormat:SULocalizedString(@"An important update to %@ is ready to install", nil), [host name]];
+    }
+    else
+    {
+        return [NSString stringWithFormat:SULocalizedString(@"A new version of %@ is available!", nil), [host name]];
+    }
 }
 
 - (NSString *)descriptionText
